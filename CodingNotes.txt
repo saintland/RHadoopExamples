@@ -1,0 +1,13 @@
+in ex4 
+back propagandation
+pay attention to dot product
+(a2.*(1.-a2)). * (delta_3* a2')
+
+in ex5 model selection
+global vs local var lambda
+
+theta=linCostFunc(...,lambda)
+%lambda not zero
+
+error=linCostFunc(...,0)
+set local lambda to 0 without changing its global value
